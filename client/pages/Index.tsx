@@ -177,7 +177,7 @@ export default function Index() {
                   <h4 className="text-black font-bold text-lg md:text-xl text-center">
                     Christmas polaroid preview
                   </h4>
-                  <div className="bg-bfp-light-teal rounded-lg p-8 md:p-16 flex items-center justify-center min-h-[280px]">
+                  <div className="bg-bfp-light-teal rounded-lg p-8 md:p-16 flex items-center justify-center min-h-[400px]">
                     <p className="text-black text-lg md:text-xl text-center">
                       Your AI-generated Christmas image will appear here
                     </p>
