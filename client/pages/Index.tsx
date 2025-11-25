@@ -58,7 +58,7 @@ export default function Index() {
 
         {/* Hero Section */}
         <section className="relative">
-          <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
+          <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-6">
