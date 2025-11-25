@@ -17,7 +17,7 @@ export default function Index() {
         </div>
 
         {/* Header */}
-        <header className="relative bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8">
+        <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8">
         <div className="flex items-center justify-between py-2 gap-8">
           {/* Logo */}
           <div className="flex-shrink-0">
