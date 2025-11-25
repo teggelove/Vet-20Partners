@@ -5,7 +5,7 @@ export default function Index() {
     <div className="min-h-screen bg-bfp-beige">
       {/* Light Teal Background Section */}
       <div className="bg-bfp-light-teal relative overflow-hidden">
-        <svg className="absolute right-0 top-0 w-1/2 h-full pointer-events-none" viewBox="0 0 751 632" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="absolute right-0 top-0 w-1/2 h-full pointer-events-none z-0" viewBox="0 0 751 632" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M574.648 0.142915C492.284 3.34919 384.252 87.6764 340.532 129.439C307.548 125.775 224.593 116.356 178.68 120.96C121.288 126.714 13.5192 159.708 0.0241579 292.538C-1.20928 394.018 44.494 476.839 199.537 553.625C333.639 641.806 452.096 660.163 499.224 660.581C519.291 647.965 576.294 592.164 643.766 469.889C765.143 236.639 757.186 190.495 742.906 133.881C728.626 77.267 677.603 -3.86492 574.648 0.142915Z" fill="#66D7CF"/>
         </svg>
 
