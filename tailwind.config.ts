@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Poppins", "Inter", "system-ui", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +60,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "bfp-dark-emerald": "#00302D",
+        "bfp-white": "#FFFFFF",
+        "bfp-dark-teal": "#008D84",
+        "bfp-yellow": "#FDE856",
+        "bfp-peach": "#F27F61",
+        "bfp-beige": "#FDF2E4",
+        "bfp-light-teal": "#D9F9F3",
+        "bfp-teal-accent": "#66D7CF",
       },
       borderRadius: {
         lg: "var(--radius)",
