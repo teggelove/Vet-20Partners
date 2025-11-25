@@ -159,7 +159,11 @@ export default function Index() {
               <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
                 {/* Upload Area */}
                 <div className="bg-white rounded-xl border-2 border-dashed border-black p-8 md:p-12 flex flex-col items-center justify-center space-y-4 min-h-[340px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
-                  <Upload className="w-16 h-16 md:w-20 md:h-20 stroke-bfp-dark-teal stroke-[5]" />
+                  <svg width="86" height="86" viewBox="0 0 86 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43 48.375V10.75" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M72.5625 48.375V69.875H13.4375V48.375" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M29.5625 24.1875L43 10.75L56.4375 24.1875" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
                   <h4 className="text-black font-bold text-lg md:text-xl text-center">
                     Upload your pet photo
                   </h4>
