@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-bfp-beige">
       {/* Top Banner */}
-      <div className="bg-bfp-peach py-3 px-4 text-center">
+      <div className="bg-bfp-peach py-3 px-4 text-center mx-auto max-w-7xl rounded-b-xl">
         <p className="text-black text-sm md:text-base leading-tight">
           Share your photo & tag us on social for your chance to win a Best for Pet Wellness Plan Membership #BestforPetXmas
         </p>
