@@ -2,7 +2,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-bfp-beige">
       {/* Sticky Top Banner and Header */}
-      <div className="sticky top-0 z-50 bg-bfp-peach">
+      <div className="sticky top-0 z-50">
         {/* Top Banner */}
         <div className="relative z-10 bg-bfp-peach py-3 px-4 text-center mx-auto max-w-7xl">
           <p className="text-black text-sm md:text-base leading-tight">
