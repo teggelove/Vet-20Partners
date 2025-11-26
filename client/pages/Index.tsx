@@ -339,11 +339,11 @@ export default function Index() {
             </div>
 
             {/* Footer Links */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pt-2">
               {/* Wellness Plan */}
-              <div>
-                <h3 className="font-bold text-base mb-4">Wellness Plan</h3>
-                <ul className="space-y-2 text-sm leading-tight">
+              <div className="flex flex-col">
+                <h3 className="font-bold text-base leading-[116%] mb-3">Wellness Plan</h3>
+                <ul className="space-y-3 text-sm leading-[0.63]">
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">What's included?</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">How much can I save?</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Wellness Plan FAQs</a></li>
@@ -352,9 +352,9 @@ export default function Index() {
               </div>
 
               {/* Services */}
-              <div>
-                <h3 className="font-bold text-base mb-4">Services</h3>
-                <ul className="space-y-2 text-sm leading-tight">
+              <div className="flex flex-col">
+                <h3 className="font-bold text-base leading-[116%] mb-3">Services</h3>
+                <ul className="space-y-3 text-sm leading-[0.63]">
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Puppy School</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Pet Advice</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">24/7 Online Vet Support</a></li>
@@ -363,9 +363,9 @@ export default function Index() {
               </div>
 
               {/* Support */}
-              <div>
-                <h3 className="font-bold text-base mb-4">Support</h3>
-                <ul className="space-y-2 text-sm leading-tight">
+              <div className="flex flex-col">
+                <h3 className="font-bold text-base leading-[116%] mb-3">Support</h3>
+                <ul className="space-y-3 text-sm leading-[0.63]">
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Contact Us</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">FAQs</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Ways to pay in clinic</a></li>
@@ -374,18 +374,18 @@ export default function Index() {
               </div>
 
               {/* Book a vet */}
-              <div>
-                <h3 className="font-bold text-base mb-4">Book a vet</h3>
-                <ul className="space-y-2 text-sm leading-tight">
+              <div className="flex flex-col">
+                <h3 className="font-bold text-base leading-[116%] mb-3">Book a vet</h3>
+                <ul className="space-y-3 text-sm leading-[0.63]">
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Find a Vet</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Find an emergency vet</a></li>
                 </ul>
               </div>
 
               {/* Legal */}
-              <div>
-                <h3 className="font-bold text-base mb-4">Legal</h3>
-                <ul className="space-y-2 text-sm leading-tight">
+              <div className="flex flex-col">
+                <h3 className="font-bold text-base leading-[116%] mb-3">Legal</h3>
+                <ul className="space-y-3 text-sm leading-[0.63]">
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Terms and Conditions</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Privacy Policy</a></li>
                   <li><a href="#" className="hover:text-bfp-teal-accent transition-colors">Privacy Collection Notice</a></li>
