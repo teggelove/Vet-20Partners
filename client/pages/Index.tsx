@@ -162,7 +162,7 @@ export default function Index() {
                         : 'hover:ring-4 hover:ring-bfp-yellow'
                     }`}
                   >
-                    <span className="text-bfp-dark-emerald font-bold text-sm md:text-base text-center leading-tight">
+                    <span className="text-bfp-dark-emerald font-medium text-sm md:text-base text-center leading-tight">
                       {style.label}
                     </span>
                   </div>
