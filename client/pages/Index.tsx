@@ -14,14 +14,14 @@ export default function Index() {
         </div>
 
         {/* Header */}
-        <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8 md:h-[79px]">
-      <div className="flex items-center justify-between py-2 md:py-0 gap-8 h-full">
+        <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-2 md:px-8 md:h-[79px]">
+      <div className="flex items-center justify-between py-2 md:py-0 h-full">
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F42c814d66f3d4d0a80524e4f17216525?format=webp&width=800"
             alt="bestforpet"
-            className="h-16 md:h-24 w-auto"
+            className="h-[34px] md:h-24 w-auto"
           />
         </div>
 
@@ -42,9 +42,11 @@ export default function Index() {
         </nav>
 
         {/* Mobile menu button */}
-        <button className="lg:hidden p-2">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+        <button className="lg:hidden p-1">
+          <svg className="w-5 h-6" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.125 12H16.875" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M3.07715 6.75H16.8271" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M3.07715 17.25H16.8271" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </button>
       </div>
