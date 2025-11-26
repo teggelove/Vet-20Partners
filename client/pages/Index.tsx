@@ -256,7 +256,7 @@ export default function Index() {
 
               {/* X (Twitter) */}
               <a href="#" className="w-[47px] h-[47px] md:w-[74px] md:h-[74px] rounded-full bg-bfp-dark-teal flex items-center justify-center hover:opacity-90 transition-opacity">
-                <svg width="24" height="24" md:width="40" md:height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 md:w-10 h-6 md:h-10">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 md:w-10 h-6 md:h-10">
                   <path d="M29.5314 4.99316H34.6116L23.5155 17.7603L36.6169 35.0727H26.323L18.3017 24.5783L9.07735 35.0727H3.99725L15.8954 21.4367L3.32881 4.99316H13.8901L21.176 14.6186L29.5314 4.99316ZM27.7267 31.9979H30.5341L12.3527 7.86743H9.27788L27.7267 31.9979Z" fill="white"/>
                 </svg>
               </a>
