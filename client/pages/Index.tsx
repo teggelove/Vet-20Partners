@@ -195,16 +195,16 @@ export default function Index() {
 
               <div className="grid lg:grid-cols-[481px_1fr] gap-6 items-start">
                 {/* Upload Area */}
-                <div className="md:bg-white md:rounded-xl md:border md:border-dashed md:border-black md:p-8 md:lg:p-12 md:flex md:flex-col md:items-center md:justify-center md:space-y-3 md:h-[339px] bg-white rounded-2xl border border-dashed border-black flex items-center gap-4 px-6 py-6 lg:rounded-xl lg:border lg:border-dashed lg:border-black lg:p-8 lg:flex-col lg:items-center lg:justify-center lg:space-y-3 lg:h-[339px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
-                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 md:w-[86px] md:h-[86px] lg:w-[86px] lg:h-[86px]" style={{viewBox: "0 0 43 43"}}>
+                <div className="bg-white rounded-2xl md:rounded-xl border border-dashed border-black flex md:flex-col items-center gap-4 md:gap-0 px-6 py-6 md:p-8 lg:p-12 md:justify-center md:space-y-3 md:h-[339px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
+                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 md:w-[86px] md:h-[86px]">
                     <path d="M21.5 24.1875V5.375" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M36.2812 24.1875V34.9375H6.71875V24.1875" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M14.7812 12.0938L21.5 5.375L28.2188 12.0938" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                  <h4 className="text-black font-normal text-base md:font-bold md:text-lg md:lg:text-xl md:text-center md:lg:text-center">
+                  <h4 className="text-black font-normal text-base md:font-bold md:text-lg lg:text-xl md:text-center">
                     Upload your pet photo
                   </h4>
-                  <p className="hidden md:block md:lg:block text-black text-sm text-center">
+                  <p className="hidden md:block text-black text-sm md:text-center">
                     Click to browse or drag and drop image
                   </p>
                 </div>
