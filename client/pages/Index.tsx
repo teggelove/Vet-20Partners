@@ -151,78 +151,75 @@ export default function Index() {
       {/* Create your Christmas masterpiece Section */}
       <section className="bg-bfp-dark-teal">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-20">
-          <div>
-            <h2 className="text-white font-bold text-3xl md:text-[40px] leading-[116%] text-center mb-8">
-              Create your masterpiece
-            </h2>
+          <h2 className="text-white font-bold text-3xl md:text-[40px] leading-[116%] text-center mb-8">
+            Create your masterpiece
+          </h2>
 
-            {/* Choose your style */}
-            <div className="mb-12">
-              <h3 className="text-white font-bold text-xl md:text-2xl text-center mb-6">
-                Choose your style
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 max-w-6xl mx-auto">
-                {[
-                  { id: 1, label: 'Christmas 1' },
-                  { id: 2, label: 'Christmas 2' },
-                  { id: 3, label: "New Year's Eve" },
-                  { id: 4, label: 'Beach' },
-                  { id: 5, label: 'Backyard Cricket' },
-                  { id: 6, label: 'Summer BBQ' }
-                ].map((style) => (
-                  <div
-                    key={style.id}
-                    onClick={() => setSelectedStyle(style.id)}
-                    className={`aspect-square bg-white rounded-xl transition-all cursor-pointer flex items-end justify-center p-4 ${
-                      selectedStyle === style.id
-                        ? 'ring-4 ring-bfp-yellow'
-                        : 'hover:ring-4 hover:ring-bfp-yellow'
-                    }`}
-                  >
-                    <span className="text-bfp-dark-emerald font-medium text-sm md:text-base text-center leading-tight">
-                      {style.label}
-                    </span>
-                  </div>
-                ))}
-              </div>
+          {/* Choose your style */}
+          <div className="mb-12">
+            <h3 className="text-white font-bold text-xl md:text-2xl text-center mb-6">
+              Choose your style
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 max-w-6xl mx-auto">
+              {[
+                { id: 1, label: 'Christmas 1' },
+                { id: 2, label: 'Christmas 2' },
+                { id: 3, label: "New Year's Eve" },
+                { id: 4, label: 'Beach' },
+                { id: 5, label: 'Backyard Cricket' },
+                { id: 6, label: 'Summer BBQ' }
+              ].map((style) => (
+                <div
+                  key={style.id}
+                  onClick={() => setSelectedStyle(style.id)}
+                  className={`aspect-square bg-white rounded-xl transition-all cursor-pointer flex items-end justify-center p-4 ${
+                    selectedStyle === style.id
+                      ? 'ring-4 ring-bfp-yellow'
+                      : 'hover:ring-4 hover:ring-bfp-yellow'
+                  }`}
+                >
+                  <span className="text-bfp-dark-emerald font-medium text-sm md:text-base text-center leading-tight">
+                    {style.label}
+                  </span>
+                </div>
+              ))}
             </div>
+          </div>
 
-            {/* Upload and Preview */}
-            <div>
-              <h3 className="text-white font-bold text-xl md:text-2xl text-center mb-8">
-                Upload your photo and generate your polaroid
-              </h3>
+          {/* Upload and Preview */}
+          <div>
+            <h3 className="text-white font-bold text-xl md:text-2xl text-center mb-8">
+              Upload your photo and generate your polaroid
+            </h3>
 
-              <div className="grid lg:grid-cols-[481px_1fr] gap-6 items-start">
-                {/* Upload Area */}
-                <div className="bg-white rounded-2xl md:rounded-xl border border-dashed border-black flex md:flex-col items-center gap-4 md:gap-0 px-6 py-6 md:p-8 lg:p-12 md:justify-center md:space-y-3 md:h-[339px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
-                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 md:w-[86px] md:h-[86px]">
-                    <path d="M21.5 24.1875V5.375" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M36.2812 24.1875V34.9375H6.71875V24.1875" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M14.7812 12.0938L21.5 5.375L28.2188 12.0938" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <h4 className="text-black font-normal text-base md:font-bold md:text-lg lg:text-xl md:text-center">
-                    Upload your pet photo
-                  </h4>
-                  <p className="hidden md:block text-black text-sm md:text-center">
-                    Click to browse or drag and drop image
+            <div className="grid lg:grid-cols-[481px_1fr] gap-6 items-start">
+              {/* Upload Area */}
+              <div className="bg-white rounded-2xl md:rounded-xl border border-dashed border-black flex md:flex-col items-center gap-4 md:gap-0 px-6 py-6 md:p-8 lg:p-12 md:justify-center md:space-y-3 md:h-[339px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
+                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 md:w-[86px] md:h-[86px]">
+                  <path d="M21.5 24.1875V5.375" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M36.2812 24.1875V34.9375H6.71875V24.1875" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M14.7812 12.0938L21.5 5.375L28.2188 12.0938" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <h4 className="text-black font-normal text-base md:font-bold md:text-lg lg:text-xl md:text-center">
+                  Upload your pet photo
+                </h4>
+                <p className="hidden md:block text-black text-sm md:text-center">
+                  Click to browse or drag and drop image
+                </p>
+              </div>
+
+              {/* Preview Area */}
+              <div className="bg-white rounded-xl p-8 md:p-10 space-y-7">
+                <h4 className="text-black font-bold text-lg md:text-xl">
+                  Polaroid preview
+                </h4>
+                <div className="bg-[#D9F9F3] rounded-lg p-12 md:p-20 flex items-center justify-center h-[446px]">
+                  <p className="text-black text-lg md:text-xl text-center max-w-xs">
+                    Your AI-generated image will appear here
                   </p>
                 </div>
-
-                {/* Preview Area */}
-                <div className="bg-white rounded-xl p-8 md:p-10 space-y-7">
-                  <h4 className="text-black font-bold text-lg md:text-xl">
-                    Polaroid preview
-                  </h4>
-                  <div className="bg-[#D9F9F3] rounded-lg p-12 md:p-20 flex items-center justify-center h-[446px]">
-                    <p className="text-black text-lg md:text-xl text-center max-w-xs">
-                      Your AI-generated image will appear here
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
