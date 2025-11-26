@@ -206,14 +206,6 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Bottom Banner */}
-            <div className="mt-8 bg-bfp-teal-accent rounded-b-2xl -mx-6 md:-mx-12 -mb-6 md:-mb-12 py-6 px-6">
-              <p className="text-bfp-dark-emerald text-center text-lg md:text-2xl leading-[115%]">
-                <span className="font-bold">Share your photo & tag us on social </span>
-                <span>for your chance to win a Best for Pet Wellness Plan Membership</span>
-                <span className="font-bold"> #BestforPetXmas</span>
-              </p>
-            </div>
           </div>
         </div>
       </section>
