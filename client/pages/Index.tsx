@@ -64,16 +64,18 @@ export default function Index() {
           <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Content */}
-            <div className="space-y-6">
-              <h1 className="text-bfp-dark-emerald font-bold text-4xl md:text-5xl lg:text-[48px] leading-[116%]">
+            <div className="space-y-1 md:space-y-6">
+              <h1 className="text-bfp-dark-emerald font-bold text-[32px] md:text-5xl lg:text-[48px] leading-[116%] px-2.5 py-2">
                 Heading text here
               </h1>
-              <p className="text-bfp-dark-emerald text-lg md:text-xl leading-[134%]">
+              <p className="text-bfp-dark-emerald text-base md:text-xl leading-[134%] px-2.5 py-1">
                 Celebrate the festive season with your furry family and turn them into a cartoon.
               </p>
-              <button className="bg-bfp-yellow text-bfp-dark-emerald font-bold px-7 py-4 rounded-full text-base hover:bg-bfp-yellow/90 transition-colors">
-                Get started
-              </button>
+              <div className="px-2.5 py-2.5">
+                <button className="bg-bfp-yellow text-bfp-dark-emerald font-bold px-[27px] py-[15px] rounded-[48px] text-base hover:bg-bfp-yellow/90 transition-colors">
+                  Get started
+                </button>
+              </div>
             </div>
 
             {/* Right Content - Polaroids */}
