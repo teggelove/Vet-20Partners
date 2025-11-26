@@ -7,15 +7,17 @@ export default function Index() {
           <path d="M574.648 0.142915C492.284 3.34919 384.252 87.6764 340.532 129.439C307.548 125.775 224.593 116.356 178.68 120.96C121.288 126.714 13.5192 159.708 0.0241579 292.538C-1.20928 394.018 44.494 476.839 199.537 553.625C333.639 641.806 452.096 660.163 499.224 660.581C519.291 647.965 576.294 592.164 643.766 469.889C765.143 236.639 757.186 190.495 742.906 133.881C728.626 77.267 677.603 -3.86492 574.648 0.142915Z" fill="#66D7CF"/>
         </svg>
 
-        {/* Top Banner */}
-        <div className="relative z-10 bg-bfp-peach py-3 px-4 text-center mx-auto max-w-7xl">
-          <p className="text-black text-sm md:text-base leading-tight">
-            Share your photo & tag us on social for your chance to win a Best for Pet Wellness Plan Membership #BestforPetXmas
-          </p>
-        </div>
+        {/* Sticky Top Banner and Header */}
+        <div className="sticky top-0 z-50 bg-bfp-light-teal">
+          {/* Top Banner */}
+          <div className="relative z-10 bg-bfp-peach py-3 px-4 text-center mx-auto max-w-7xl">
+            <p className="text-black text-sm md:text-base leading-tight">
+              Share your photo & tag us on social for your chance to win a Best for Pet Wellness Plan Membership #BestforPetXmas
+            </p>
+          </div>
 
-        {/* Header */}
-        <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8 md:h-[79px]">
+          {/* Header */}
+          <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8 md:h-[79px]">
         <div className="flex items-center justify-between py-2 md:py-0 gap-8 h-full">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -50,6 +52,7 @@ export default function Index() {
           </button>
         </div>
       </header>
+        </div>
 
         {/* Hero Section */}
         <section className="relative">
