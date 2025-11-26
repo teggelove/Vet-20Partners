@@ -144,17 +144,28 @@ export default function Index() {
               <h3 className="text-white font-bold text-xl md:text-2xl text-center mb-6">
                 Choose your style
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 max-w-5xl mx-auto">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 max-w-6xl mx-auto">
+                {[
+                  { id: 1, label: 'Christmas 1' },
+                  { id: 2, label: 'Christmas 2' },
+                  { id: 3, label: "New Year's Eve" },
+                  { id: 4, label: 'Beach' },
+                  { id: 5, label: 'Backyard Cricket' },
+                  { id: 6, label: 'Summer BBQ' }
+                ].map((style) => (
                   <div
-                    key={i}
-                    onClick={() => setSelectedStyle(i)}
-                    className={`aspect-square bg-white rounded-xl transition-all cursor-pointer ${
-                      selectedStyle === i
+                    key={style.id}
+                    onClick={() => setSelectedStyle(style.id)}
+                    className={`aspect-square bg-white rounded-xl transition-all cursor-pointer flex items-end justify-center p-4 ${
+                      selectedStyle === style.id
                         ? 'ring-4 ring-bfp-yellow'
                         : 'hover:ring-4 hover:ring-bfp-yellow'
                     }`}
-                  />
+                  >
+                    <span className="text-bfp-dark-emerald font-bold text-sm md:text-base text-center leading-tight">
+                      {style.label}
+                    </span>
+                  </div>
                 ))}
               </div>
             </div>
@@ -162,12 +173,12 @@ export default function Index() {
             {/* Upload and Preview */}
             <div>
               <h3 className="text-white font-bold text-xl md:text-2xl text-center mb-8">
-                Upload your image and generate your polaroid
+                Upload your photo and generate your polaroid
               </h3>
-              
-              <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
+
+              <div className="grid lg:grid-cols-[481px_1fr] gap-6 items-start">
                 {/* Upload Area */}
-                <div className="bg-white rounded-xl border-2 border-dashed border-black p-8 md:p-12 flex flex-col items-center justify-center space-y-4 min-h-[340px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
+                <div className="bg-white rounded-xl border border-dashed border-black p-8 md:p-12 flex flex-col items-center justify-center space-y-3 h-[339px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
                   <svg width="86" height="86" viewBox="0 0 86 86" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M43 48.375V10.75" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M72.5625 48.375V69.875H13.4375V48.375" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -182,13 +193,13 @@ export default function Index() {
                 </div>
 
                 {/* Preview Area */}
-                <div className="bg-white rounded-xl p-6 md:p-8 space-y-6">
-                  <h4 className="text-black font-bold text-lg md:text-xl text-center">
-                    Christmas polaroid preview
+                <div className="bg-white rounded-xl p-8 md:p-10 space-y-7">
+                  <h4 className="text-black font-bold text-lg md:text-xl">
+                    Polaroid preview
                   </h4>
-                  <div className="bg-bfp-light-teal rounded-lg p-8 md:p-16 flex items-center justify-center min-h-[400px]">
-                    <p className="text-black text-lg md:text-xl text-center">
-                      Your AI-generated Christmas image will appear here
+                  <div className="bg-[#D9F9F3] rounded-lg p-12 md:p-20 flex items-center justify-center h-[446px]">
+                    <p className="text-black text-lg md:text-xl text-center max-w-xs">
+                      Your AI-generated image will appear here
                     </p>
                   </div>
                 </div>
