@@ -275,6 +275,44 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Email Sign Up Section */}
+      <section className="py-12 md:py-16 px-4 md:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-bfp-dark-emerald rounded-[32px] overflow-hidden grid lg:grid-cols-[550px_1fr] items-center">
+            {/* Left Content */}
+            <div className="p-8 md:p-12 lg:pl-[42px] flex flex-col gap-[22px]">
+              <div className="flex flex-col">
+                <h2 className="text-white font-bold text-3xl md:text-[40px] leading-[118%]">
+                  Personalised advice.
+                </h2>
+                <h2 className="text-bfp-teal-accent font-bold text-3xl md:text-[40px] leading-[118%]">
+                  Straight to your inbox.
+                </h2>
+              </div>
+
+              <button className="bg-bfp-yellow text-bfp-dark-emerald font-semibold text-base leading-[116%] px-7 py-4 rounded-[48px] flex items-center justify-center gap-2 w-fit hover:opacity-90 transition-opacity">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g style={{mixBlendMode: 'multiply'}}>
+                    <path d="M12 13.5C13.8895 13.5 20.9752 8.16912 21 6.17004C21.0247 4.17096 3 3.72672 3 6.17004C3 8.61336 10.1105 13.5 12 13.5Z" fill="#D6D6D6"/>
+                  </g>
+                  <path d="M19 4.12988C20.6569 4.12988 22 5.47303 22 7.12988V17.1299C22 18.735 20.7394 20.0457 19.1543 20.126L19 20.1299H5L4.8457 20.126C3.26055 20.0457 2 18.735 2 17.1299V7.12988C2 5.47303 3.34315 4.12988 5 4.12988H19ZM4.19336 17.7197C4.3753 17.9681 4.6685 18.1299 5 18.1299H19C19.2034 18.1299 19.3919 18.0682 19.5498 17.9639L17.4775 15.8926L14.9873 13.4014C14.8733 13.4719 14.7603 13.5406 14.6475 13.6055C13.8035 14.0904 12.8749 14.4795 12 14.4795C11.0948 14.4795 10.1509 14.0605 9.30469 13.5508C9.11468 13.4363 8.92391 13.312 8.73145 13.1816L4.19336 17.7197ZM20 9.13184C19.182 9.98719 18.2545 10.8829 17.3066 11.6846C17.0872 11.8701 16.8656 12.0523 16.6426 12.2285L18.8926 14.4775L20 15.585V9.13184ZM4 15.0859L7.12695 11.958C6.96888 11.8258 6.80996 11.6935 6.6543 11.5576C5.71635 10.7386 4.80143 9.84 4 9.0166V15.0859ZM5 6.12988C4.72411 6.12988 4.47389 6.2412 4.29297 6.42188C5.27758 7.4777 6.60654 8.8596 7.9707 10.0508C8.79251 10.7684 9.60183 11.3957 10.3359 11.8379C11.0991 12.2976 11.6552 12.4795 12 12.4795C12.3393 12.4795 12.8928 12.307 13.6514 11.8711C14.3817 11.4514 15.1924 10.8526 16.0146 10.1572C17.4071 8.97959 18.7656 7.57956 19.7344 6.45312C19.5516 6.25494 19.2908 6.12988 19 6.12988H5Z" fill="#00302D"/>
+                </svg>
+                Sign up
+              </button>
+            </div>
+
+            {/* Right Image */}
+            <div className="hidden lg:block h-full">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2Fe521f44dde2c4811b3dac2e8157ee298?format=webp&width=800"
+                alt="Person with laptop"
+                className="w-full h-full object-cover rounded-r-[32px]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-bfp-dark-emerald text-white py-10 px-4 md:px-8 mt-12">
         <div className="max-w-7xl mx-auto">
