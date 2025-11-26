@@ -195,18 +195,15 @@ export default function Index() {
 
               <div className="grid lg:grid-cols-[481px_1fr] gap-6 items-start">
                 {/* Upload Area */}
-                <div className="bg-white rounded-xl border border-dashed border-black p-8 md:p-12 flex flex-col items-center justify-center space-y-3 h-[339px] hover:border-bfp-dark-teal transition-colors cursor-pointer">
-                  <svg width="86" height="86" viewBox="0 0 86 86" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M43 48.375V10.75" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M72.5625 48.375V69.875H13.4375V48.375" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M29.5625 24.1875L43 10.75L56.4375 24.1875" stroke="#008D84" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                <div className="bg-white rounded-2xl border border-dashed border-black flex items-center gap-4 px-6 py-6 md:px-12 md:py-8 hover:border-bfp-dark-teal transition-colors cursor-pointer">
+                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+                    <path d="M21.5 24.1875V5.375" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M36.2812 24.1875V34.9375H6.71875V24.1875" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M14.7812 12.0938L21.5 5.375L28.2188 12.0938" stroke="#008D84" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                  <h4 className="text-black font-bold text-lg md:text-xl text-center">
+                  <h4 className="text-black font-normal text-base">
                     Upload your pet photo
                   </h4>
-                  <p className="text-black text-sm text-center">
-                    Click to browse or drag and drop image
-                  </p>
                 </div>
 
                 {/* Preview Area */}
