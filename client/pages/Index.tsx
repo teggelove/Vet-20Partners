@@ -339,7 +339,7 @@ export default function Index() {
             </div>
 
             {/* Footer Links */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pt-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pt-2">
               {/* Wellness Plan */}
               <div className="flex flex-col">
                 <h3 className="font-bold text-base leading-[116%] mb-3">Wellness Plan</h3>
