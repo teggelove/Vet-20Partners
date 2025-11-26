@@ -21,7 +21,7 @@ export default function Index() {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F42c814d66f3d4d0a80524e4f17216525?format=webp&width=800"
             alt="bestforpet"
-            className="h-10 md:h-24 w-auto"
+            className="h-[34px] md:h-24 w-auto"
           />
         </div>
 
