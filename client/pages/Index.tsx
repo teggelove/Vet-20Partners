@@ -1,5 +1,3 @@
-import { Camera, Share, Upload } from "lucide-react";
-
 export default function Index() {
   return (
     <div className="min-h-screen bg-bfp-beige">
@@ -97,7 +95,7 @@ export default function Index() {
             {/* Snap */}
             <div className="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
               <div className="w-11 h-11">
-                <Camera className="w-full h-full stroke-bfp-dark-emerald stroke-[3]" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2Fde5ba01fb23c4fe286c5461376c55810?format=webp&width=800" alt="Camera" className="w-full h-full" />
               </div>
               <h3 className="text-black font-bold text-2xl">Snap</h3>
               <p className="text-black text-base leading-[116%]">
@@ -108,22 +106,22 @@ export default function Index() {
             {/* Load */}
             <div className="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
               <div className="w-10 h-10">
-                <Upload className="w-full h-full stroke-bfp-dark-emerald stroke-[3]" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F0de84fbb4ce644e8aba9635f17273765?format=webp&width=800" alt="Upload" className="w-full h-full" />
               </div>
               <h3 className="text-black font-bold text-2xl">Load</h3>
               <p className="text-black text-base leading-[116%]">
-                Load it into our AI animator
+                Upload it to our photo animator
               </p>
             </div>
 
             {/* Share */}
             <div className="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
               <div className="w-10 h-10">
-                <Share className="w-full h-full stroke-bfp-dark-emerald stroke-[3]" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F12831d29385a4d7391d6e76de7bacc6e?format=webp&width=800" alt="Share" className="w-full h-full" />
               </div>
               <h3 className="text-black font-bold text-2xl">Share</h3>
               <p className="text-black text-base leading-[116%]">
-                Share your personalised holiday Polaroid with friends and family
+                Share your Polaroid with friends and family
               </p>
             </div>
           </div>
