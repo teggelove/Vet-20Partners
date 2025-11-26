@@ -32,9 +32,6 @@ export default function Index() {
               Wellness Plan
             </a>
             <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
-              Services
-            </a>
-            <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
               Book a vet
             </a>
             <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
