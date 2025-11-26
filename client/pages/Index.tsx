@@ -1,58 +1,58 @@
 export default function Index() {
   return (
     <div className="min-h-screen bg-bfp-beige">
+      {/* Sticky Top Banner and Header */}
+      <div className="sticky top-0 z-50 bg-gradient-to-b from-bfp-light-teal to-white">
+        {/* Top Banner */}
+        <div className="relative z-10 bg-bfp-peach py-3 px-4 text-center mx-auto max-w-7xl">
+          <p className="text-black text-sm md:text-base leading-tight">
+            Share your photo & tag us on social for your chance to win a Best for Pet Wellness Plan Membership #BestforPetXmas
+          </p>
+        </div>
+
+        {/* Header */}
+        <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8 md:h-[79px]">
+      <div className="flex items-center justify-between py-2 md:py-0 gap-8 h-full">
+        {/* Logo */}
+        <div className="flex-shrink-0">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F42c814d66f3d4d0a80524e4f17216525?format=webp&width=800"
+            alt="bestforpet"
+            className="h-16 md:h-24 w-auto"
+          />
+        </div>
+
+        {/* Navigation */}
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-12">
+          <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
+            Wellness Plan
+          </a>
+          <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
+            Book a vet
+          </a>
+          <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
+            Pet advice
+          </a>
+          <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
+            About
+          </a>
+        </nav>
+
+        {/* Mobile menu button */}
+        <button className="lg:hidden p-2">
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </header>
+      </div>
+
       {/* Light Teal Background Section */}
       <div className="bg-bfp-light-teal relative">
         <svg className="absolute right-0 top-0 w-1/2 h-full pointer-events-none z-0" viewBox="0 0 751 632" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M574.648 0.142915C492.284 3.34919 384.252 87.6764 340.532 129.439C307.548 125.775 224.593 116.356 178.68 120.96C121.288 126.714 13.5192 159.708 0.0241579 292.538C-1.20928 394.018 44.494 476.839 199.537 553.625C333.639 641.806 452.096 660.163 499.224 660.581C519.291 647.965 576.294 592.164 643.766 469.889C765.143 236.639 757.186 190.495 742.906 133.881C728.626 77.267 677.603 -3.86492 574.648 0.142915Z" fill="#66D7CF"/>
         </svg>
-
-        {/* Sticky Top Banner and Header */}
-        <div className="sticky top-0 z-50 bg-bfp-light-teal">
-          {/* Top Banner */}
-          <div className="relative z-10 bg-bfp-peach py-3 px-4 text-center mx-auto max-w-7xl">
-            <p className="text-black text-sm md:text-base leading-tight">
-              Share your photo & tag us on social for your chance to win a Best for Pet Wellness Plan Membership #BestforPetXmas
-            </p>
-          </div>
-
-          {/* Header */}
-          <header className="relative z-10 bg-white rounded-b-xl mx-auto max-w-7xl px-4 md:px-8 md:h-[79px]">
-        <div className="flex items-center justify-between py-2 md:py-0 gap-8 h-full">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F42c814d66f3d4d0a80524e4f17216525?format=webp&width=800"
-              alt="bestforpet"
-              className="h-16 md:h-24 w-auto"
-            />
-          </div>
-          
-          {/* Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-12">
-            <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
-              Wellness Plan
-            </a>
-            <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
-              Book a vet
-            </a>
-            <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
-              Pet advice
-            </a>
-            <a href="#" className="text-bfp-dark-emerald font-medium text-base hover:text-bfp-dark-teal transition-colors">
-              About
-            </a>
-          </nav>
-
-          {/* Mobile menu button */}
-          <button className="lg:hidden p-2">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
-      </header>
-        </div>
 
         {/* Hero Section */}
         <section className="relative">
