@@ -96,7 +96,7 @@ export default function Index() {
           
           <div className="grid md:grid-cols-3 gap-5">
             {/* Snap */}
-            <div className="bg-white rounded-xl py-8 px-[53px] flex flex-col">
+            <div className="bg-white rounded-xl py-8 px-6 flex flex-col">
               <div className="flex flex-col items-end gap-[13px]">
                 <div className="flex justify-center items-center gap-2 w-full">
                   <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +112,7 @@ export default function Index() {
             </div>
 
             {/* Load */}
-            <div className="bg-white rounded-xl py-8 px-[57px] flex flex-col">
+            <div className="bg-white rounded-xl py-8 px-6 flex flex-col">
               <div className="flex flex-col items-start gap-[18px]">
                 <div className="flex justify-center items-center gap-2 w-full">
                   <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,7 +129,7 @@ export default function Index() {
             </div>
 
             {/* Share */}
-            <div className="bg-white rounded-xl py-8 px-[29px] flex flex-col">
+            <div className="bg-white rounded-xl py-8 px-6 flex flex-col">
               <div className="flex flex-col items-center gap-[18px]">
                 <div className="flex justify-center items-center gap-2">
                   <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
