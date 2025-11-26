@@ -17,11 +17,11 @@ export default function Index() {
         <header className="relative z-10 bg-white md:rounded-b-xl mx-auto max-w-7xl px-4 md:px-8 md:h-[79px]">
       <div className="flex items-center justify-between py-2 md:py-0 h-full">
         {/* Logo */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 w-[30%] md:w-auto">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F42c814d66f3d4d0a80524e4f17216525?format=webp&width=800"
             alt="bestforpet"
-            className="h-[34px] md:h-24 w-auto"
+            className="h-auto w-full md:w-auto md:h-24"
           />
         </div>
 
