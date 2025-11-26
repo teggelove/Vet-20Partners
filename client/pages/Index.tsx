@@ -394,16 +394,16 @@ export default function Index() {
             </div>
 
             {/* Divider */}
-            <div className="border-t border-gray-600"></div>
+            <div className="h-px bg-[#D6D6D6]"></div>
 
             {/* Bottom Row */}
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-gray-400 text-xs">
+              <p className="text-[#D9D9D9] text-xs leading-[0.63] text-center md:text-left">
                 © Copyright 2025 BestForPet. All rights reserved
               </p>
-              
+
               {/* Social Icons */}
-              <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center gap-2.5">
                 <a href="#" className="hover:opacity-70 transition-opacity">
                   <svg className="w-6 h-6" fill="#D6D6D6" viewBox="0 0 22 22">
                     <path d="M8.29217 5.37641V7.89541H6.446V10.9754H8.29217V20.1292H12.0817V10.9763H14.6254C14.6254 10.9763 14.8637 9.49958 14.9792 7.88441H12.0972V5.77791C12.0972 5.4635 12.5097 5.04 12.9186 5.04H14.9847V1.8335H12.1761C8.19775 1.8335 8.29217 4.91625 8.29217 5.37641V5.37641Z"/>
