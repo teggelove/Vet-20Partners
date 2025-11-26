@@ -64,7 +64,7 @@ export default function Index() {
                 Celebrate the festive season with your furry family and turn them into a cartoon.
               </p>
               <button className="bg-bfp-yellow text-bfp-dark-emerald font-bold px-7 py-4 rounded-full text-base hover:bg-bfp-yellow/90 transition-colors">
-                Start creating
+                Get started
               </button>
             </div>
 
