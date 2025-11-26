@@ -99,7 +99,10 @@ export default function Index() {
             <div className="bg-white rounded-xl py-8 px-[53px] flex flex-col">
               <div className="flex flex-col items-end gap-[13px]">
                 <div className="flex justify-center items-center gap-2 w-full">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2Fde5ba01fb23c4fe286c5461376c55810?format=webp&width=800" alt="Camera" className="w-11 h-11" />
+                  <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.75 35.75H8.25C7.52065 35.75 6.82118 35.4603 6.30546 34.9445C5.78973 34.4288 5.5 33.7293 5.5 33V13.75C5.5 13.0207 5.78973 12.3212 6.30546 11.8055C6.82118 11.2897 7.52065 11 8.25 11H13.75L16.5 6.875H27.5L30.25 11H35.75C36.4793 11 37.1788 11.2897 37.6945 11.8055C38.2103 12.3212 38.5 13.0207 38.5 13.75V33C38.5 33.7293 38.2103 34.4288 37.6945 34.9445C37.1788 35.4603 36.4793 35.75 35.75 35.75Z" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M22 28.875C25.4173 28.875 28.1875 26.1048 28.1875 22.6875C28.1875 19.2702 25.4173 16.5 22 16.5C18.5827 16.5 15.8125 19.2702 15.8125 22.6875C15.8125 26.1048 18.5827 28.875 22 28.875Z" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
                   <h3 className="text-black font-bold text-2xl leading-[116%]">Snap</h3>
                 </div>
                 <p className="text-black text-base leading-[116%] text-center w-full">
@@ -112,7 +115,11 @@ export default function Index() {
             <div className="bg-white rounded-xl py-8 px-[57px] flex flex-col">
               <div className="flex flex-col items-start gap-[18px]">
                 <div className="flex justify-center items-center gap-2 w-full">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F0de84fbb4ce644e8aba9635f17273765?format=webp&width=800" alt="Upload" className="w-[39px] h-[39px]" />
+                  <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.5 21.9375V4.875" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M32.9062 21.9375V31.6875H6.09375V21.9375" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M13.4062 10.9688L19.5 4.875L25.5938 10.9688" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
                   <h3 className="text-black font-bold text-2xl leading-[116%]">Load</h3>
                 </div>
                 <p className="text-black text-base leading-[116%] text-center w-full">
@@ -125,7 +132,11 @@ export default function Index() {
             <div className="bg-white rounded-xl py-8 px-[29px] flex flex-col">
               <div className="flex flex-col items-center gap-[18px]">
                 <div className="flex justify-center items-center gap-2">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F12831d29385a4d7391d6e76de7bacc6e?format=webp&width=800" alt="Share" className="w-[39px] h-[39px]" />
+                  <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.8125 23.1562L34.125 15.8438L26.8125 8.53125" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M29.25 32.9062H4.875V13.4062" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M10.9688 26.8125C11.7796 23.6719 13.6115 20.89 16.1763 18.9044C18.7411 16.9188 21.8932 15.8421 25.1367 15.8438H34.125" stroke="#00302D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
                   <h3 className="text-black font-bold text-2xl leading-[116%]">Share</h3>
                 </div>
                 <p className="text-black text-base leading-[116%] text-center w-full">
