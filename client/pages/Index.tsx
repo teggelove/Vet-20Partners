@@ -319,10 +319,10 @@ export default function Index() {
           <div className="space-y-8">
             {/* Logo */}
             <div>
-              <img 
-                src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F4548d829d8344370ae42fac3bae9e2eb?format=webp&width=800" 
-                alt="bestforpet" 
-                className="h-16 md:h-20 w-auto"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F9d6873d8dd67480688359e25a4eb47cf%2F4548d829d8344370ae42fac3bae9e2eb?format=webp&width=800"
+                alt="bestforpet"
+                className="h-20 md:h-[87px] w-auto"
               />
             </div>
 
