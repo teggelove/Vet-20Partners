@@ -136,7 +136,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="bg-bfp-dark-teal rounded-2xl p-6 md:p-12">
             <h2 className="text-white font-bold text-3xl md:text-[40px] leading-[116%] text-center mb-8">
-              Create your Christmas masterpiece
+              Create your masterpiece
             </h2>
 
             {/* Choose your style */}
