@@ -149,7 +149,7 @@ export default function Index() {
       </section>
 
       {/* Create your Christmas masterpiece Section */}
-      <section className="md:py-12 md:px-4 md:lg:py-20 md:lg:px-8">
+      <section className="md:py-12 md:px-4 lg:py-20 lg:px-8">
         <div className="bg-bfp-dark-teal px-4 py-12 md:rounded-2xl md:p-6 md:lg:p-12 md:max-w-7xl md:mx-auto">
           <h2 className="text-white font-bold text-3xl md:text-[40px] leading-[116%] text-center mb-8">
             Create your masterpiece
