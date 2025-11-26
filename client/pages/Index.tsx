@@ -1,4 +1,7 @@
+import { useState } from 'react';
+
 export default function Index() {
+  const [selectedStyle, setSelectedStyle] = useState(null);
   return (
     <div className="min-h-screen bg-bfp-beige">
       {/* Sticky Top Banner and Header */}
@@ -143,7 +146,15 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 max-w-5xl mx-auto">
                 {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="aspect-square bg-white rounded-xl hover:ring-4 hover:ring-bfp-yellow transition-all cursor-pointer"></div>
+                  <div
+                    key={i}
+                    onClick={() => setSelectedStyle(i)}
+                    className={`aspect-square bg-white rounded-xl transition-all cursor-pointer ${
+                      selectedStyle === i
+                        ? 'ring-4 ring-bfp-yellow'
+                        : 'hover:ring-4 hover:ring-bfp-yellow'
+                    }`}
+                  />
                 ))}
               </div>
             </div>
