@@ -242,7 +242,7 @@ export default function Index() {
             <div className="flex items-center gap-2 md:gap-3 mt-2">
               {/* Facebook */}
               <a href="#" className="w-[47px] h-[47px] md:w-[74px] md:h-[74px] rounded-full bg-bfp-dark-teal flex items-center justify-center hover:opacity-90 transition-opacity">
-                <svg width="24" height="24" md:width="40" md:height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 md:w-10 h-6 md:h-10">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 md:w-10 h-6 md:h-10">
                   <path d="M15.0767 9.77516V14.3552H11.72V19.9552H15.0767V36.5985H21.9667V19.9568H26.5917C26.5917 19.9568 27.025 17.2718 27.235 14.3352H21.995V10.5052C21.995 9.9335 22.745 9.1635 23.4883 9.1635H27.245V3.3335H22.1383C14.905 3.3335 15.0767 8.9385 15.0767 9.77516V9.77516Z" fill="white"/>
                 </svg>
               </a>
